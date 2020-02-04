@@ -1,0 +1,91 @@
+body {
+	background-color: rgb(189, 233, 238);
+	color: rgb(93, 115, 126);
+	font-family: Helvetica;
+	text-align: center;
+	
+}
+
+ h3 {
+	color: rgb(93, 115, 126);
+	font-family: Montserrat;
+	font-size: 24px
+	font-weight: lighter;
+	text-align: center;
+}
+
+a {
+	font-family: Montserrat;
+	text-decoration: none;
+	color: rgb(22, 96, 138);
+	transition: color 0.3s ease;
+}
+ a:hover {
+ 	font-family: Montserrat;
+ 	color: rgb(167, 226,200);
+ }
+.container {
+	width: 700px;     
+	margin: 30px auto; 
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+ 
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+ 
+  .container {
+    width: 300px;
+  }
+}
+
+.kd {
+	border-radius: 50%;	
+	width: 130px	
+}
+.card-white	{
+	background: white;                       
+	padding: 30px;                             
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);  
+	margin: 30px auto; 
+} 
+#link {
+	background: rgb(189, 233, 238);
+	padding: 10px;                             
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+	margin: 300px auto;
+}
+
+#list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+#list-inline li {
+	display: inline;
+	padding: 0px 10px; 
+}
+
+#list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+#list-inline i:hover {
+	font-size: 50px
+	color: rgb(167, 226,200);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
